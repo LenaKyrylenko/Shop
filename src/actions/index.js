@@ -32,7 +32,7 @@ export const getGQL = (url) => (query, variables) =>
       }
     })
 
-const backendURL = 'http://shop-roles.asmer.fs.a-level.com.ua'
+const backendURL = 'http://shop-roles.node.ed.asmer.org.ua'
 
 export const gql = getGQL(backendURL + '/graphql')
 

@@ -6,7 +6,6 @@ import { createStore, combineReducers, applyMiddleware } from 'redux'
 import { Provider, connect } from 'react-redux'
 import { Router, Route, Link, Redirect, Switch } from 'react-router-dom'
 import createHistory from 'history/createBrowserHistory'
-
 import {
   actionRootCats,
   actionGoodById,
@@ -19,13 +18,9 @@ import {CCategory,Aside} from './components/Categories'
 import { CGood} from './components/Goods'
 import {CCart} from './components/Cart'
 
-
 console.log(store.getState())
 store.subscribe(() => console.log(store.getState()))
 store.dispatch(actionRootCats())
-
-
-
 const Header = () => (
   <header>
     <CLogout className='Link'/>
