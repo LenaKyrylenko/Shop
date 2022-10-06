@@ -1,0 +1,139 @@
+.App {
+ 
+  font-size: medium;
+  font-family: serif;
+
+  color: rgb(6, 58, 55);
+
+  // text-align: center;
+  main {
+     display: flex; 
+   
+     background-color: rgb(204, 241, 255);
+    // flex-direction: column;
+  
+    
+  }
+
+  footer {
+    background: #444;
+    Logo {
+      max-width: 200px;
+    }
+  }
+}
+  .Block {
+    width: 70%;
+    margin: 20px;
+  background: rgb(238, 255, 232);
+
+}
+
+h1,
+span,
+ul,
+li {
+  color: rgb(19, 98, 104);
+}
+
+.Input {
+  // display: flex;
+  // flex-flow: column wrap;
+ 
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+  border:1px #ccc solid;
+  width:12em;
+}
+
+.Input[type="text"]:focus {
+  background-color: rgb(131, 187, 206);
+}
+img{
+  width: 50%;
+  height: 50%;
+}
+header {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background: rgb(26, 44, 58);
+}
+.Btn{
+  display: flex;
+  flex-flow: column wrap;
+  background-color: rgb(169, 235, 166);  
+  border: 2px solid rgb(9, 52, 71);
+  border-radius: 4px;
+  margin: 30px 0;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.Link{
+  display: flex;
+ align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-family: serif;
+  background-color: rgb(174, 172, 240);  
+  border: 2px solid rgb(37, 140, 184);
+  border-radius: 10px;
+  margin: 10px ;
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(10, 9, 58);
+
+}
+.Link:hover { 
+  text-decoration: underline; 
+  background-color: rgb(123, 119, 228);  
+ } 
+.Aside {
+  padding: 10px;
+  width: 30%;
+  display: block;
+}
+.Strong{
+  
+  font-size: 900;
+  background:#ebf390;
+  color: #000000;
+  padding: 3px;
+  margin: 50px 0;
+}
+.Cart{
+  flex-direction: column;
+}
+
+input {
+  border: 2px solid rgb(9, 52, 71);
+  border-radius: 4px;
+  margin: 10px;
+  padding: 10px;
+}
+
+input[type=text]:focus {
+  background-color: rgb(131, 187, 206);
+}
+
+a{ 
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ 
+  color: rgb(10, 9, 58);
+  padding-bottom: 2px;
+
+}
+a:hover{
+  color: rgb(95, 23, 131);
+  border-bottom: 4px solid rgb(130, 30, 180);
+
+}
+.Order{
+  flex-direction: column;
+}
